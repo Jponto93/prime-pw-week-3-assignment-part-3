@@ -78,7 +78,10 @@ while (i<supplyChanges.length){
 console.log('9. Total supplies available is:');
 
 let sum = 0;
-
-for (let z = 0; z < supplyChanges.length; z++){
-  sum += parseInt(supplyChanges[z]);
+let z = 0;
+while (z<supplyChanges.length){
+    sum += parseInt(supplyChanges[z]); z++;
 } console.log(sum);
+/* for (let z = 0; z < supplyChanges.length; z++){
+  sum += parseInt(supplyChanges[z]);
+} console.log(sum); */
