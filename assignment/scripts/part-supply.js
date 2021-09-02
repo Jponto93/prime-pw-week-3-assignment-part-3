@@ -81,6 +81,6 @@ console.log('9. Total supplies available is:');
 
 let sum = 0;
 
-for (let i of supplyChanges){
-  sum += i;
+for (let el of supplyChanges){
+  sum += el;
 }console.log(sum);
